@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="UTF-8">
+		<title>vovahtml.ru | Новини</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<a href='main.html'>
+			<div id='divLogo'>
+			<img id='logo' src='images/logo.png'></img>
+			<p id='pLogo'>vovahtml.ru</p>
+	</div>
+		</a>
+		<div id='twoHeader'>
+			<a href='main.html'><div id='oneSetting'>
+				<img id='imgOne' src='images/icones/audio-cassetta.png'></img><br/>
+				<p id='pOne'><center>Новини</center></p>
+			</div>
+		</a>
+		<a href='mainTwo.html'>
+		<div id='twoSetting'>
+			<img id='imgTwo' src='images/icones/graphic.png'></img><br/>
+			<p id='pTwo'><center>Про нас<center></p>
+		</div>
+	</a>
+		<a href='mainThree.html'>
+			<div id='threeSetting'></div>
+			<img id='imgThree' src='images/icones/search-document.png'></img><br/>
+			<p id='pThree'>Код сайту</p>
+		</div>
+	</a>
+		<a href='mainFour.html'>	
+			<div id='fourSetting'>
+			<img id='imgFour' src='images/icones/computer.png'></img><br/>
+			<p id='pFour'>Мої роботи</p>
+		</div>
+	</a>
+			<input id='inputOne' placeholder="Введіть ваше ім'я">
+			<button id='buttonOne'>Вас звати</button>
+		</header>
+		<footer>
+			<a href='slideOne.html'>
+			<div id='divDown'></div><br/>
+			<div id='slideOne'>
+				<img id='slideOneImg' src='images/slide1.jpg'></img><br/>
+				<h3 id='slideOneH'>Оновлення сайту!</h3>
+				<i><p id='slideOneP'>Сайт оновлений на нову <br/> версію - 1.1.2</p></i>
+			</div>
+		</a>
+		<div id='lineRight'></div>
+		<h2 id='hRight'>Корисні силки</h2>
+		<li id='google'>Google</li><br/>
+		<li id='yahoo'>Yahoo</li><br/>
+		<li id='vk'>VK</li>
+		</footer>
+		
+		<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+		<script>
+			$(document).ready(function(){
+				$('#buttonOne').click(function(){
+					alert('Вас звати ' + $('#inputOne').val());
+				});
+
+			});
+			document.getElementById('google').onclick = function() {
+				window.open('http://google.com');
+			}
+			document.getElementById('yahoo').onclick = function() {
+				window.open('http://yahoo.com');
+			}
+			document.getElementById('vk').onclick = function() {
+				window.open('http://vk.com');
+			}
+		</script>
+	</body>
+</html>

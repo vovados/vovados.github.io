@@ -1,0 +1,242 @@
+/*Лого*/
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+#logo{
+	width: 55px;
+	position: absolute;
+	top: 5px;
+	left: 11px;
+}
+#divLogo{
+	position: absolute;
+	width: 210px;
+	height: 66px;
+	top: -0.5px;
+	left: -0.5px;
+	background-color: #4B4A45;
+	border-bottom: 2px solid #000000;
+}
+#pLogo{
+	position: absolute;
+	left: 80px;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+}
+
+/*Після лого(силки і т.д.)*/
+/*Перша кнопка*/
+#twoHeader{
+	position: absolute;
+	background-color: #4B4A45;
+	width: 1068px;
+	height: 66px;
+	top: -0.5px;
+	left: 210px;
+	border-left: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+#imgOne{
+	width: 45px;
+	position: relative;
+	top: 5px;
+	left: 35px;
+}
+#pOne{
+	position: absolute;
+	width: 30px;
+	top: 32px;
+	background-color: #EEDFAC;
+	width: 100px;
+}
+#oneSetting{
+	background-color: #EEDFAC;
+	position: absolute;
+	left: 1px;
+	width: 110px;
+	height: 66px;
+}
+/*Друга кнопка*/
+#imgTwo{
+	width: 45px;
+	position: relative;
+	top: 5px;
+	left: 33px;
+}
+#pTwo{
+	position: absolute;
+	width: 30px;
+	top: 32px;
+	background-color: #EEDFAC;
+	width: 100px;
+	color: #000000;
+}
+#twoSetting{
+	background-color: #EEDFAC;
+	position: absolute;
+	left: 110px;
+	width: 110px;
+	height: 66px;
+	border-left: 2px solid #000000;
+}
+/*Третя кнопка*/
+#imgThree{
+	width: 45px;
+	position: absolute;
+	top: 5px;
+	left: 255px;
+}
+#pThree{
+	position: absolute;
+	width: 110px;
+	top: 32px;
+	color: #000000;
+	left: 245px;
+}
+#threeSetting{
+	background-color: #EEDFAC;
+	position: absolute;
+	left: 221px;
+	width: 110px;
+	height: 66px;
+	border-left: 2px solid #000000;
+}
+/*Четверта кнопка*/
+#imgFour{
+	width: 45px;
+	position: relative;
+	top: 5px;
+	left: 29px;
+}
+#pFour{
+	position: absolute;
+	width: 110px;
+	top: 33px;
+	color: #000000;
+	left: 13px;
+}
+#fourSetting{
+	background-color: #EEDFAC;
+	position: absolute;
+	top: 0px;
+	left: 545px;
+	width: 110px;
+	height: 66px;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+#inputOne{
+	position: absolute;
+	left: 950px;
+	top: 20px;
+}
+#buttonOne{
+	position: absolute;
+	left: 1127px;
+	top: 20px;
+}
+#divDown{
+	margin-bottom: 30px
+}
+#slideOne{
+	position: absolute;
+	top: 110px;
+	left: 40px;
+	border: 2px solid #000000;
+}
+#slideOneH{
+	position: absolute;
+	top: 82px;
+	left: 1px;
+	color: #000000;
+}
+#slideOneP{
+	font-size: 18px;
+	color: #000000;
+}
+#lineRight{
+	position: absolute;
+	height: 855px;
+	border-right: 2px solid #000000;
+	left: 1110px;
+	top: 68px;
+}
+#google{
+	position: absolute;
+	left: 1117px;
+	top: 120px;
+	cursor: pointer;
+	font-size: 20px;
+	color: #4B4A45;
+}
+#hRight{
+	position: absolute;
+	left: 1115px;
+	top: 60px;
+}
+#yahoo{
+	position: absolute;
+	left: 1117px;
+	top: 145px;
+	cursor: pointer;
+	font-size: 20px;
+	color: #4B4A45;
+}
+#vk{
+	position: absolute;
+	left: 1117px;
+	top: 170px;
+	cursor: pointer;
+	font-size: 20px;
+	color: #4B4A45;
+}
+#back{
+	position: absolute;
+	left: 10px;
+	top: 60px;
+	border: 2px solid #000000;
+	cursor: pointer;
+	background-color: #5CB85C;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+#lineTwoLeft{
+	position: absolute;
+	height: 855px;
+	border-right: 2px solid #000000;
+	left: 120px;
+	top: 68px;
+	background-image: url(images/backgrountOne.jpg)
+}
+#lineTwoRight{
+	position: absolute;
+	height: 855px;
+	border-right: 2px solid #000000;
+	left: 1150px;
+	top: 68px;
+}
+#hOne{
+	position: absolute;
+	top: 62px;
+	left: 435px;
+}
+#pSlide{
+	position: absolute;
+	top: 102px;
+	left: 125px;
+	right: 125px;
+	font-size: 20px;
+}
+#hSlideOne{
+	position: absolute;
+	top: 440px;
+	left: 130px;
+	right: 125px;
+	font-size: 23px;
+}
+#mainDiv{
+	position: absolute;
+	top: 500px;
+	left: 140px;
+	right: 125px;
+}
